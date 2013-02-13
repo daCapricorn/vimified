@@ -49,12 +49,12 @@ if count(g:vimified_packages, 'general')
     Bundle 'matthias-guenther/hammer.vim'
     nmap <leader>p :Hammer<cr>
 
-    Bundle 'tsaleh/vim-align'
-    Bundle 'tpope/vim-endwise'
+    "Bundle 'tsaleh/vim-align'
+    "Bundle 'tpope/vim-endwise'
     Bundle 'tpope/vim-repeat'
-    Bundle 'tpope/vim-speeddating'
+    "Bundle 'tpope/vim-speeddating'
     Bundle 'tpope/vim-surround'
-    Bundle 'tpope/vim-unimpaired'
+    "Bundle 'tpope/vim-unimpaired'
     Bundle 'maxbrunsfeld/vim-yankstack'
     Bundle 'tpope/vim-eunuch'
 
@@ -64,7 +64,7 @@ if count(g:vimified_packages, 'general')
     set guioptions-=r
     set guioptions-=L
 
-    Bundle 'kana/vim-textobj-user'
+    "Bundle 'kana/vim-textobj-user'
     Bundle 'vim-scripts/YankRing.vim'
     let g:yankring_replace_n_pkey = '<leader>['
     let g:yankring_replace_n_nkey = '<leader>]'
@@ -76,7 +76,7 @@ if count(g:vimified_packages, 'general')
 
     Bundle 'Spaceghost/vim-matchit'
     Bundle 'kien/ctrlp.vim'
-    Bundle 'vim-scripts/scratch.vim'
+    "Bundle 'vim-scripts/scratch.vim'
 
     Bundle 'troydm/easybuffer.vim'
     nmap <leader>be :EasyBufferToggle<enter>
@@ -201,11 +201,11 @@ endif
 
 " _. Color {{{
 if count(g:vimified_packages, 'color')
-    Bundle 'sjl/badwolf'
+    "Bundle 'sjl/badwolf'
     Bundle 'altercation/vim-colors-solarized'
     Bundle 'tomasr/molokai'
-    Bundle 'zaiste/Atom'
-    Bundle 'w0ng/vim-hybrid'
+    "Bundle 'zaiste/Atom'
+    "Bundle 'w0ng/vim-hybrid'
 endif
 " }}}
 
@@ -213,7 +213,7 @@ endif
 
 " General {{{
 filetype plugin indent on
-colorscheme hybrid
+colorscheme molokai
 syntax on
 
 " Set 5 lines to the cursor - when moving vertically
